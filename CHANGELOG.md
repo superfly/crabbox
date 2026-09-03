@@ -20,7 +20,7 @@
 
 ### Changes
 
-- Closed and joined lease-owned SSH connection masters after confirmed brokered deletion, preserving warm reuse and exact route/host-key isolation while retaining failed local cleanup for a local-only retry.
+- Closed and joined lease-owned SSH connection masters after confirmed brokered deletion, preserving native connection reuse and lease/host-key isolation while retaining failed local cleanup for a local-only retry. [PR 1774](https://github.com/openclaw/crabbox/pull/1774). Thanks @steipete.
 - Preserved bounded Hetzner error codes and messages from multiline provider responses without changing allocation recovery or secret redaction. [PR 1771](https://github.com/openclaw/crabbox/pull/1771). Thanks @steipete.
 - Kept sync working when runners cannot authenticate to or reach Git origins by falling back to a full manifest, preserving internal Git-control exit codes, and recognizing disconnected sockets without mistaking URL digits for authentication failures. [PR 1622](https://github.com/openclaw/crabbox/pull/1622), [PR 1744](https://github.com/openclaw/crabbox/pull/1744). Thanks @vincentkoc.
 - Restored brokered artifact publishing with complete production storage configuration and atomic deployment of bucket-scoped signing credentials, preserving the existing storage and signed-read design. [PR 1732](https://github.com/openclaw/crabbox/pull/1732), [PR 1737](https://github.com/openclaw/crabbox/pull/1737).
