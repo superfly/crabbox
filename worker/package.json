@@ -43,7 +43,7 @@
     "oxlint": "^1.80.0",
     "oxlint-tsgolint": "^7.0.2001",
     "typescript": "^7.0.2",
-    "vitest": "^4.1.11",
+    "vitest": "^4.1.12",
     "wrangler": "^4.127.0"
   },
   "engines": {
